@@ -1,0 +1,145 @@
+body {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fefefe;
+}
+
+body .calculator-container {
+  width: 350px;
+  height: 450px;
+}
+
+body .calculator-container .screen {
+  background-color: #feceab;
+  height: 80px;
+  border: solid white 0.3px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #242424;
+  font-size: 3rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 10px;
+}
+
+body .calculator-container .first-pack {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .calculator-container .first-pack .first-pack-css {
+  height: 100%;
+  background-color: #e84a5f;
+  font-size: 1.8rem;
+  border: solid white 0.3px;
+  border-radius: 20px;
+  background-blend-mode: multiply;
+  cursor: pointer;
+  color: #242424;
+}
+
+body .calculator-container .first-pack .first-pack-css:hover {
+  background-color: #e84a5fbd;
+}
+
+body .calculator-container .first-pack .first-button {
+  width: 50%;
+}
+
+body .calculator-container .first-pack .second-button {
+  width: 25%;
+}
+
+body .calculator-container .first-pack .third-button {
+  width: 25%;
+  background-color: #99b898;
+  background-blend-mode: multiply;
+}
+
+body .calculator-container .first-pack .third-button:hover {
+  background-color: #99b898c4;
+}
+
+body .calculator-container .second-pack {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .calculator-container .second-pack .second-pack-css {
+  width: 25%;
+  color: #242424;
+  cursor: pointer;
+  border: solid white 0.3px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  background-color: #e84a5f;
+  height: 100%;
+  background-blend-mode: multiply;
+}
+
+body .calculator-container .second-pack .second-pack-css:hover {
+  background-color: #e84a5fbd;
+}
+
+body .calculator-container .second-pack .fourth-button-2 {
+  background-color: #99b898;
+  font-size: 1.4rem;
+}
+
+body .calculator-container .second-pack .fourth-button-2:hover {
+  background-color: #99b898c4;
+}
+
+body .calculator-container .third-pack {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .calculator-container .third-pack .third-pack-css {
+  font-size: 1.5rem;
+  border: solid white 0.3px;
+  border-radius: 20px;
+  color: #242424;
+  cursor: pointer;
+}
+
+body .calculator-container .third-pack .first-button-3 {
+  width: 80%;
+  background-color: #feceab;
+  background-blend-mode: multiply;
+}
+
+body .calculator-container .third-pack .first-button-3:hover {
+  background-color: #feceabbb;
+}
+
+body .calculator-container .third-pack .second-button-3 {
+  width: 25%;
+  background-color: #99b898;
+  background-blend-mode: multiply;
+}
+
+body .calculator-container .third-pack .second-button-3:hover {
+  background-color: #99b898c4;
+}
+/*# sourceMappingURL=styles.css.map */

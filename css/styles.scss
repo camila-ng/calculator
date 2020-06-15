@@ -1,0 +1,120 @@
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    .calculator-container {
+        width: 350px;
+        height: 450px;
+
+        .screen {
+            background-color: #feceab;
+            height: 80px;
+            border: solid white 0.3px;
+            border-radius: 20px;
+            display: flex;
+            color: rgb(36, 36, 36);
+            font-size: 3rem;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding-right: 10px;
+        }
+
+        .first-pack {
+            height: 90px;
+            display: flex;
+
+            .first-pack-css {
+                height: 100%;
+                background-color: #e84a5f;
+
+                font-size: 1.8rem;
+                border: solid white 0.3px;
+                border-radius: 20px;
+                background-blend-mode: multiply;
+                cursor: pointer;
+                color: rgb(36, 36, 36);
+
+                &:hover {
+                    background-color: #e84a5fbd;
+                }
+            }
+            .first-button {
+                width: 50%;
+            }
+
+            .second-button {
+                width: 25%;
+            }
+
+            .third-button {
+                width: 25%;
+                background-color: #99b898;
+                background-blend-mode: multiply;
+
+                &:hover {
+                    background-color: #99b898c4;
+                }
+            }
+        }
+
+        .second-pack {
+            height: 70px;
+            display: flex;
+            .second-pack-css {
+                width: 25%;
+                color: rgb(36, 36, 36);
+                cursor: pointer;
+                border: solid white 0.3px;
+                border-radius: 20px;
+                font-size: 1.5rem;
+                background-color: #e84a5f;
+                height: 100%;
+                background-blend-mode: multiply;
+
+                &:hover {
+                    background-color: #e84a5fbd;
+                }
+            }
+            .fourth-button-2 {
+                background-color: #99b898;
+                font-size: 1.4rem;
+                &:hover {
+                    background-color: #99b898c4;
+                }
+            }
+        }
+
+        .third-pack {
+            height: 70px;
+            display: flex;
+
+            .third-pack-css {
+                font-size: 1.5rem;
+                border: solid white 0.3px;
+                border-radius: 20px;
+                color: rgb(36, 36, 36);
+                cursor: pointer;
+            }
+            .first-button-3 {
+                width: 80%;
+                background-color: #feceab;
+                background-blend-mode: multiply;
+
+                &:hover {
+                    background-color: #feceabbb;
+                }
+            }
+            .second-button-3 {
+                width: 25%;
+                background-color: #99b898;
+                background-blend-mode: multiply;
+
+                &:hover {
+                    background-color: #99b898c4;
+                }
+            }
+        }
+    }
+}
