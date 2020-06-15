@@ -34,6 +34,7 @@ body .calculator-container .screen {
       -ms-flex-align: end;
           align-items: flex-end;
   padding-right: 10px;
+  overflow: hidden;
 }
 
 body .calculator-container .first-pack {
